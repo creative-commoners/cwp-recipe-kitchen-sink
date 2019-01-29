@@ -59,7 +59,7 @@
         ]
     },
     "repositories": [
-        {"type": "vcs", "url": "git@github.com:creative-commoners/silverstripe-graphql.git"}
+        {"type": "vcs", "url": "https://github.com/creative-commoners/silverstripe-graphql.git"}
     ],
     "config": {
         "process-timeout": 600
