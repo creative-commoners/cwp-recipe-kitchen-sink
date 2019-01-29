@@ -55,6 +55,7 @@ before_script:
 
   # Install dependencies
   - composer validate
+  - composer clear-cache
   - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
 
   # Validate cow schema
