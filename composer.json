@@ -16,7 +16,8 @@
         "silverstripe/recipe-content-blocks": "2.1.x-dev",
         "dnadesign/silverstripe-elemental-userforms": "3.0.x-dev",
         "silverstripe/textextraction": "3.0.x-dev",
-        "silverstripe/realme": "3.1.x-dev"
+        "silverstripe/realme": "3.1.x-dev",
+        "silverstripe/graphql": "dev-test-db as 3.0.x-dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7",
@@ -29,8 +30,37 @@
         "project-files": [],
         "branch-alias": {
             "dev-master": "2.x-dev"
-        }
+        },
+        "project-files-installed": [
+            "app/.htaccess",
+            "app/_config.php",
+            "app/_config/blog.yml",
+            "app/_config/contentblocks.yml",
+            "app/_config/cwpadmin.yml",
+            "app/_config/environmentcheck.yml",
+            "app/_config/mysite.yml",
+            "app/_config/theme.yml",
+            "app/_config/versionfeed.yml",
+            "app/src/BlocksPage.php",
+            "app/src/HomePage.php",
+            "app/src/HomePageController.php",
+            "app/src/Page.php",
+            "app/src/PageController.php",
+            "behat.yml",
+            "phpcs.xml.dist",
+            "phpunit.xml.dist"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "index.php",
+            "install-frameworkmissing.html",
+            "install.php",
+            "web.config"
+        ]
     },
+    "repositories": [
+        {"type": "vcs", "url": "git@github.com:creative-commoners/silverstripe-graphql.git"}
+    ],
     "config": {
         "process-timeout": 600
     },
