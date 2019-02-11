@@ -63,6 +63,7 @@ before_script:
 
   # TEMP: Set versioning query fix branch
   - (cd vendor/silverstripe/versioned && git remote add ccs https://github.com/creative-commoners/silverstripe-versioned.git && git fetch ccs && git checkout pulls/1.3/archive-query-performance)
+  - (cd vendor/silverstripe/cms && git remote add ccs https://github.com/creative-commoners/silverstripe-cms.git && git fetch ccs && git checkout pulls/4.3/versioning-test-update)
 
 script:
   - if [[ $PHPUNIT_TEST ]]; then vendor/bin/phpunit --testsuite "$PHPUNIT_TEST" --exclude-group exclude-from-travis; fi
