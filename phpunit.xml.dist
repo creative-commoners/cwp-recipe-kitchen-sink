@@ -1,15 +1,15 @@
-<!-- 
+<!--
 	PHPUnit configuration for SilverStripe
 
 	Requires PHPUnit 3.5+
 
-	Usage: 
+	Usage:
 	 - "phpunit": Runs all tests in all folders
 	 - "phpunit framework/tests/": Run all tests of the framework module
 	 - "phpunit framework/tests/filesystem": Run all filesystem tests within the framework module
 	 - "phpunit framework/tests/filesystem/FolderTest.php": Run a single test
 	 - "phpunit <dash><dash>coverage-html assets/": Generate coverage report (replace <dash> with "-", requires xdebug)
-	
+
 	More information:
 	- http://www.phpunit.de/manual/current/en/textui.html
 	- http://doc.silverstripe.org/framework/en/topics/testing/#configuration
@@ -17,20 +17,73 @@
 	It is safe to remove this file for normal website operation.
 -->
 <phpunit bootstrap="framework/tests/bootstrap.php" colors="true">
-
-	<testsuite name="Default">
-		<directory>mysite/tests</directory>
+	<testsuite name="Core">
 		<directory>cms/tests</directory>
 		<directory>framework/tests</directory>
+		<directory>siteconfig/tests</directory>
 	</testsuite>
-	
+
+	<testsuite name="CWP">
+		<directory>cwp-core/tests</directory>
+		<directory>cwp/tests</directory>
+	</testsuite>
+
+	<testsuite name="CMS extensions">
+		<directory>blog/tests</directory>
+		<directory>comments/test</directory>
+		<directory>comment-notifications/tests</directory>
+		<directory>externallinks/tests</directory>
+		<directory>iframe/tests</directory>
+		<directory>lumberjack/tests</directory>
+		<directory>registry/tests</directory>
+        <directory>sharedraftcontent/tests</directory>
+        <directory>taxonomy/tests</directory>
+        <directory>versionfeed/tests</directory>
+	</testsuite>
+
+    <testsuite name="Framework extensions">
+        <directory>html5/tests</directory>
+        <directory>mimevalidator/tests</directory>
+        <directory>multivaluefield/tests</directory>
+        <directory>restfulserver/tests</directory>
+        <directory>secureassets/tests</directory>
+        <directory>segment-field/tests</directory>
+        <directory>selectupload/tests</directory>
+        <directory>silverstripe-phockito/tests</directory>
+        <directory>spamprotection/tests</directory>
+        <directory>spellcheck/tests</directory>
+    </testsuite>
+
+    <testsuite name="Reports">
+        <directory>reports/tests</directory>
+        <directory>securityreport/tests</directory>
+        <directory>silverstripe-maintenance/tests</directory>
+        <directory>silverstripe-composer-security-checker/tests</directory>
+        <directory>silverstripe-composer-update-checker/tests</directory>
+        <directory>sitewidecontent-report/tests</directory>
+    </testsuite>
+
+    <testsuite name="Search">
+        <directory>fulltextsearch/tests</directory>
+        <directory>textextraction/tests</directory>
+    </testsuite>
+
+    <testsuite name="Big Features">
+        <directory>subsites/tests</directory>
+        <directory>translatable/tests</directory>
+        <directory>userforms/tests</directory>
+        <directory>versionedfiles/tests</directory>
+        <directory>widgets/tests</directory>
+    </testsuite>
+
 	<listeners>
 		<listener class="SS_TestListener" file="framework/dev/TestListener.php" />
 	</listeners>
-	
+
 	<groups>
 		<exclude>
 			<group>sanitychecks</group>
+			<group>cwp-incompatible</group>
 		</exclude>
 	</groups>
 </phpunit>
