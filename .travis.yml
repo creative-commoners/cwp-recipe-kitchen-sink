@@ -22,39 +22,39 @@ env:
 
 matrix:
   include:
-    - php: 7.1
+    - php: 7.4snapshot
       env: PHPUNIT_TEST=Default PDO=1
-    - php: 7.1
+    - php: 7.4snapshot
       env: PHPUNIT_TEST=recipe-core
-    - php: 7.1
+    - php: 7.4snapshot
       env: PHPUNIT_TEST=framework-orm
-    - php: 7.1
+    - php: 7.4snapshot
       env: PHPUNIT_TEST=framework-core
-    - php: 7.1
+    - php: 7.4snapshot
       env: PHPUNIT_TEST=recipe-cms
-    - php: 7.1
+    - php: 7.4snapshot
       env: PHPUNIT_TEST=cwp-recipe-core PDO=1
-    - php: 7.1
+    - php: 7.4snapshot
       env: PHPUNIT_TEST=cwp-recipe-cms
-    - php: 7.1
+    - php: 7.4snapshot
       env: PHPUNIT_TEST=cwp-recipe-search PDO=1
-    - php: 7.1
+    - php: 7.4snapshot
       env: PHPUNIT_TEST=recipe-authoring-tools
-    - php: 7.1
+    - php: 7.4snapshot
       env: PHPUNIT_TEST=recipe-blog
-    - php: 7.1
+    - php: 7.4snapshot
       env: PHPUNIT_TEST=recipe-collaboration
-    - php: 7.1
+    - php: 7.4snapshot
       env: PHPUNIT_TEST=recipe-content-blocks
-    - php: 7.1
+    - php: 7.4snapshot
       env: PHPUNIT_TEST=recipe-form-building
-    - php: 7.1
+    - php: 7.4snapshot
       env: PHPUNIT_TEST=recipe-reporting-tools
-    - php: 7.1
+    - php: 7.4snapshot
       env: PHPUNIT_TEST=recipe-services
     - php: 7.1
       env: PHPUNIT_TEST=optional-authenticators
-    - php: 7.1
+    - php: 7.4snapshot
       env: PHPUNIT_TEST=mfa
 
 before_script:
