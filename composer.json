@@ -24,7 +24,8 @@
         "silverstripe/webauthn-authenticator": "4.x-dev",
         "silverstripe/security-extensions": "4.x-dev",
         "silverstripe/login-forms": "4.x-dev",
-        "symbiote/silverstripe-multivaluefield": "5.x-dev"
+        "symbiote/silverstripe-multivaluefield": "5.x-dev",
+        "tractorcow/silverstripe-fluent": "4.4.x-dev#0b869052afa49998d6ab68453730bc0c12c92405"
     },
     "require-dev": {
         "silverstripe/frameworktest": "dev-master",
