@@ -24,8 +24,20 @@
         "silverstripe/webauthn-authenticator": "4.x-dev",
         "silverstripe/security-extensions": "4.x-dev",
         "silverstripe/login-forms": "4.x-dev",
-        "symbiote/silverstripe-multivaluefield": "5.x-dev"
+        "symbiote/silverstripe-multivaluefield": "5.x-dev",
+        "silverstripe/assets": "dev-pulls/1.5/less-file-exists as 1.5.x-dev",
+        "silverstripe/asset-admin": "dev-pulls/1.5/use-dbfile-exists-cache as 1.5.x-dev"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:creative-commoners/silverstripe-assets.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:creative-commoners/silverstripe-asset-admin.git"
+        }
+    ],
     "require-dev": {
         "silverstripe/frameworktest": "dev-master",
         "silverstripe/graphql-devtools": "1.x-dev",
