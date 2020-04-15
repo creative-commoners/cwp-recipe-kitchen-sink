@@ -38,11 +38,11 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:creative-commoners/silverstripe-assets.git"
+            "url": "https://github.com/creative-commoners/silverstripe-assets.git"
         },
         {
             "type": "vcs",
-            "url": "git@github.com:creative-commoners/silverstripe-asset-admin.git"
+            "url": "https://github.com/creative-commoners/silverstripe-asset-admin.git"
         }
     ],
     "suggest": {
