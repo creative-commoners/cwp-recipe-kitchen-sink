@@ -25,7 +25,9 @@
         "silverstripe/security-extensions": "4.0.x-dev",
         "silverstripe/login-forms": "4.0.x-dev",
         "symbiote/silverstripe-multivaluefield": "5.x-dev",
-        "ext-mcrypt": "*"
+        "ext-mcrypt": "*",
+        "silverstripe/assets": "dev-pulls/1.5/less-file-exists as 1.5.x-dev",
+        "silverstripe/asset-admin": "dev-pulls/1.5/use-dbfile-exists-cache as 1.5.x-dev"
     },
     "require-dev": {
         "silverstripe/frameworktest": "dev-master",
@@ -33,6 +35,16 @@
         "silverstripe/recipe-testing": "^1",
         "mikey179/vfsstream": "^1.6"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:creative-commoners/silverstripe-assets.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:creative-commoners/silverstripe-asset-admin.git"
+        }
+    ],
     "suggest": {
         "silverstripe/mfa": "Add MFA authentication. Only available in PHP ^7.1.",
         "silverstripe/totp-authenticator": "Add TOTP for the silverstripe/mfa module. Only available in PHP ^7.1."
