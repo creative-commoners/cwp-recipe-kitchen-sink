@@ -38,11 +38,11 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/creative-commoners/silverstripe-assets.git"
+            "url": "git@github.com:creative-commoners/silverstripe-assets.git"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/creative-commoners/silverstripe-asset-admin.git"
+            "url": "git@github.com:creative-commoners/silverstripe-asset-admin.git"
         }
     ],
     "suggest": {
@@ -50,11 +50,40 @@
         "silverstripe/totp-authenticator": "Add TOTP for the silverstripe/mfa module. Only available in PHP ^7.1."
     },
     "extra": {
-        "project-files": []
+        "project-files": [],
+        "project-files-installed": [
+            "app/.htaccess",
+            "app/_config.php",
+            "app/_config/blog.yml",
+            "app/_config/contentblocks.yml",
+            "app/_config/cwpadmin.yml",
+            "app/_config/environmentcheck.yml",
+            "app/_config/mysite.yml",
+            "app/_config/security.yml",
+            "app/_config/theme.yml",
+            "app/_config/versionfeed.yml",
+            "app/src/BlocksPage.php",
+            "app/src/HomePage.php",
+            "app/src/HomePageController.php",
+            "app/src/Page.php",
+            "app/src/PageController.php",
+            "behat.yml",
+            "phpcs.xml.dist",
+            "phpunit.xml.dist"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "index.php",
+            "web.config"
+        ]
     },
     "config": {
-        "process-timeout": 600
+        "process-timeout": 600,
+        "platform": {
+            "php": "7.1",
+            "ext-mcrypt": "1.0.0"
+        }
     },
-    "prefer-stable": true,
+    "prefer-stable": false,
     "minimum-stability": "dev"
 }
