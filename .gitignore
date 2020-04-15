@@ -6,8 +6,3 @@
 /public/resources/
 .vscode/
 .vagrant/
-/app/
-behat.yml
-phpcs.xml.dist
-/public/
-/themes/
