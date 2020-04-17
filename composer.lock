@@ -3917,12 +3917,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-auditor.git",
-                "reference": "43ee6eccf65a74757d8ba93dd70897e43c469701"
+                "reference": "d5e36b39f02540fb7d13f398568f356609b90756"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-auditor/zipball/43ee6eccf65a74757d8ba93dd70897e43c469701",
-                "reference": "43ee6eccf65a74757d8ba93dd70897e43c469701",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-auditor/zipball/d5e36b39f02540fb7d13f398568f356609b90756",
+                "reference": "d5e36b39f02540fb7d13f398568f356609b90756",
                 "shasum": ""
             },
             "require": {
@@ -3957,7 +3957,7 @@
                 "Audit",
                 "silverstripe"
             ],
-            "time": "2019-08-15T01:49:41+00:00"
+            "time": "2020-04-17T00:59:00+00:00"
         },
         {
             "name": "silverstripe/blog",
