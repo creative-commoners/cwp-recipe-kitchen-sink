@@ -7,7 +7,19 @@
     "require": {
         "php": ">=7.1",
         "silverstripe/recipe-plugin": "^1",
-        "cwp/cwp-installer": "2.x-dev",
+        "cwp/cwp-recipe-core": "2.x-dev",
+        "cwp/cwp-recipe-cms": "2.x-dev",
+        "silverstripe/recipe-blog": "1.x-dev",
+        "silverstripe/recipe-form-building": "1.x-dev",
+        "silverstripe/recipe-authoring-tools": "1.x-dev",
+        "silverstripe/recipe-collaboration": "1.x-dev",
+        "silverstripe/recipe-reporting-tools": "1.x-dev",
+        "cwp/cwp-recipe-search": "2.x-dev",
+        "silverstripe/recipe-services": "1.x-dev",
+        "silverstripe/subsites": "2.x-dev",
+        "tractorcow/silverstripe-fluent": "4.x-dev",
+        "silverstripe/registry": "2.x-dev",
+        "cwp/starter-theme": "3.x-dev",
         "cwp/agency-extensions": "2.x-dev",
         "cwp/watea-theme": "3.x-dev",
         "silverstripe/controllerpolicy": "2.x-dev",
@@ -38,11 +50,34 @@
         "silverstripe/totp-authenticator": "Add TOTP for the silverstripe/mfa module. Only available in PHP ^7.1."
     },
     "extra": {
-        "project-files": []
+        "project-files": [],
+        "project-files-installed": [
+            "app/.htaccess",
+            "app/_config.php",
+            "app/_config/blog.yml",
+            "app/_config/contentblocks.yml",
+            "app/_config/environmentcheck.yml",
+            "app/_config/mysite.yml",
+            "app/src/BlocksPage.php",
+            "app/src/Page.php",
+            "app/src/PageController.php",
+            "behat.yml",
+            "phpcs.xml.dist",
+            "phpunit.xml.dist"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "index.php",
+            "web.config"
+        ]
     },
     "config": {
-        "process-timeout": 600
+        "process-timeout": 600,
+        "platform": {
+            "php": "7.1",
+            "ext-mcrypt": "1.0.0"
+        }
     },
-    "prefer-stable": true,
+    "prefer-stable": false,
     "minimum-stability": "dev"
 }
