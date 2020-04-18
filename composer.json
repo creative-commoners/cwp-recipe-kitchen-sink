@@ -27,6 +27,9 @@
         "symbiote/silverstripe-multivaluefield": "5.x-dev",
         "ext-mcrypt": "*"
     },
+    "replace": {
+        "silverstripe/mfa": "*"
+    },
     "require-dev": {
         "silverstripe/frameworktest": "dev-master",
         "silverstripe/graphql-devtools": "1.x-dev",
