@@ -16,7 +16,7 @@ addons:
       - libhunspell-dev
       - hunspell-en-us
 
-php: 7.1
+php: 7.4
 
 env:
   global:
