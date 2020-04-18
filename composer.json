@@ -28,7 +28,9 @@
         "ext-mcrypt": "*"
     },
     "replace": {
-        "silverstripe/mfa": "*"
+        "silverstripe/mfa": "*",
+        "silverstripe/totp-authenticator": "*",
+        "silverstripe/webauthn-authenticator": "*"
     },
     "require-dev": {
         "silverstripe/frameworktest": "dev-master",
