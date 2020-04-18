@@ -7,19 +7,7 @@
     "require": {
         "php": ">=7.1",
         "silverstripe/recipe-plugin": "^1",
-        "cwp/cwp-recipe-core": "2.x-dev",
-        "cwp/cwp-recipe-cms": "2.x-dev",
-        "silverstripe/recipe-blog": "1.x-dev",
-        "silverstripe/recipe-form-building": "1.x-dev",
-        "silverstripe/recipe-authoring-tools": "1.x-dev",
-        "silverstripe/recipe-collaboration": "1.x-dev",
-        "silverstripe/recipe-reporting-tools": "1.x-dev",
-        "cwp/cwp-recipe-search": "2.x-dev",
-        "silverstripe/recipe-services": "1.x-dev",
-        "silverstripe/subsites": "2.x-dev",
-        "tractorcow/silverstripe-fluent": "4.x-dev",
-        "silverstripe/registry": "2.x-dev",
-        "cwp/starter-theme": "3.x-dev",
+        "cwp/installer": "2.x-dev",
         "cwp/agency-extensions": "2.x-dev",
         "cwp/watea-theme": "3.x-dev",
         "silverstripe/controllerpolicy": "2.x-dev",
@@ -58,6 +46,44 @@
         {
             "type": "vcs",
             "url": "git@github.com:open-sausages/silverstripe-framework.git"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "cwp/installer",
+                "version": "2.x-dev",
+                "require": {
+                    "cwp/cwp-recipe-cms": "2.x-dev",
+                    "silverstripe/recipe-blog": "1.x-dev",
+                    "silverstripe/recipe-form-building": "1.x-dev",
+                    "silverstripe/recipe-authoring-tools": "1.x-dev",
+                    "silverstripe/recipe-collaboration": "1.x-dev",
+                    "silverstripe/recipe-reporting-tools": "1.x-dev",
+                    "cwp/cwp-recipe-search": "2.x-dev",
+                    "silverstripe/recipe-services": "1.x-dev",
+                    "silverstripe/subsites": "2.x-dev",
+                    "tractorcow/silverstripe-fluent": "4.x-dev",
+                    "silverstripe/registry": "2.x-dev",
+                    "cwp/starter-theme": "3.x-dev"
+                },
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/silverstripe/cwp-installer.git",
+                    "reference": "a47aa4cc01c3e450ae06870caa071a2b161123ba"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/silverstripe/cwp-installer/zipball/a47aa4cc01c3e450ae06870caa071a2b161123ba",
+                    "reference": "a47aa4cc01c3e450ae06870caa071a2b161123ba",
+                    "shasum": ""
+                },
+                "type": "silverstripe-recipe",
+                "extra": {
+                    "project-files": [
+                        "app/*"
+                    ]
+                }
+            }
         }
     ],
     "require-dev": {
@@ -78,9 +104,15 @@
             "app/_config.php",
             "app/_config/blog.yml",
             "app/_config/contentblocks.yml",
+            "app/_config/cwpadmin.yml",
             "app/_config/environmentcheck.yml",
             "app/_config/mysite.yml",
+            "app/_config/security.yml",
+            "app/_config/theme.yml",
+            "app/_config/versionfeed.yml",
             "app/src/BlocksPage.php",
+            "app/src/HomePage.php",
+            "app/src/HomePageController.php",
             "app/src/Page.php",
             "app/src/PageController.php",
             "behat.yml",

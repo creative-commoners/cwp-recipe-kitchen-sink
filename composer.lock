@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "48179f8964861c88de1a49ab9332695f",
+    "content-hash": "316b9675754e104e7fc476a907c73009",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -1215,6 +1215,41 @@
                 "silverstripe"
             ],
             "time": "2019-05-09T21:56:54+00:00"
+        },
+        {
+            "name": "cwp/installer",
+            "version": "2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/cwp-installer.git",
+                "reference": "a47aa4cc01c3e450ae06870caa071a2b161123ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/cwp-installer/zipball/a47aa4cc01c3e450ae06870caa071a2b161123ba",
+                "reference": "a47aa4cc01c3e450ae06870caa071a2b161123ba",
+                "shasum": ""
+            },
+            "require": {
+                "cwp/cwp-recipe-cms": "2.x-dev",
+                "cwp/cwp-recipe-search": "2.x-dev",
+                "cwp/starter-theme": "3.x-dev",
+                "silverstripe/recipe-authoring-tools": "1.x-dev",
+                "silverstripe/recipe-blog": "1.x-dev",
+                "silverstripe/recipe-collaboration": "1.x-dev",
+                "silverstripe/recipe-form-building": "1.x-dev",
+                "silverstripe/recipe-reporting-tools": "1.x-dev",
+                "silverstripe/recipe-services": "1.x-dev",
+                "silverstripe/registry": "2.x-dev",
+                "silverstripe/subsites": "2.x-dev",
+                "tractorcow/silverstripe-fluent": "4.x-dev"
+            },
+            "type": "silverstripe-recipe",
+            "extra": {
+                "project-files": [
+                    "app/*"
+                ]
+            }
         },
         {
             "name": "cwp/starter-theme",
@@ -5672,7 +5707,7 @@
         },
         {
             "name": "silverstripe/recipe-authoring-tools",
-            "version": "1.x-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/recipe-authoring-tools.git",
@@ -5698,6 +5733,9 @@
             },
             "type": "silverstripe-recipe",
             "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                },
                 "project-files": []
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -5706,7 +5744,7 @@
             ],
             "description": "Extra tools for CMS authoring in SilverStripe",
             "homepage": "https://www.silverstripe.org",
-            "time": "2019-11-13T02:05:59+00:00"
+            "time": "2019-08-15T02:10:00+00:00"
         },
         {
             "name": "silverstripe/recipe-blog",
@@ -5933,7 +5971,7 @@
         },
         {
             "name": "silverstripe/recipe-form-building",
-            "version": "dev-master",
+            "version": "1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/recipe-form-building.git",
@@ -5960,10 +5998,7 @@
             },
             "type": "silverstripe-recipe",
             "extra": {
-                "project-files": [],
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
+                "project-files": []
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -5971,7 +6006,7 @@
             ],
             "description": "A recipe of modules to help you build forms in SilverStripe",
             "homepage": "https://www.silverstripe.org",
-            "time": "2019-08-15T02:16:44+00:00"
+            "time": "2019-11-13T02:07:20+00:00"
         },
         {
             "name": "silverstripe/recipe-plugin",
@@ -7849,12 +7884,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "a459125bff944d68668469d633686d3169c8d2f9"
+                "reference": "b0f3fc7a6030c32601451b9dc286e9e01cf96995"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/a459125bff944d68668469d633686d3169c8d2f9",
-                "reference": "a459125bff944d68668469d633686d3169c8d2f9",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/b0f3fc7a6030c32601451b9dc286e9e01cf96995",
+                "reference": "b0f3fc7a6030c32601451b9dc286e9e01cf96995",
                 "shasum": ""
             },
             "require": {
@@ -7911,7 +7946,7 @@
                 "caching",
                 "psr6"
             ],
-            "time": "2020-04-12T14:33:46+00:00"
+            "time": "2020-04-17T03:10:57+00:00"
         },
         {
             "name": "symfony/config",
@@ -11081,12 +11116,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "fb6dc4b35580da4882250a68f3953644de5aa437"
+                "reference": "73e2e7f57d958e7228fce50dc0c61f58f017f9f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/fb6dc4b35580da4882250a68f3953644de5aa437",
-                "reference": "fb6dc4b35580da4882250a68f3953644de5aa437",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/73e2e7f57d958e7228fce50dc0c61f58f017f9f6",
+                "reference": "73e2e7f57d958e7228fce50dc0c61f58f017f9f6",
                 "shasum": ""
             },
             "require": {
@@ -11124,7 +11159,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2020-04-07T01:36:10+00:00"
+            "time": "2020-04-17T01:09:41+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -11399,19 +11434,7 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "cwp/cwp-recipe-core": 20,
-        "cwp/cwp-recipe-cms": 20,
-        "silverstripe/recipe-blog": 20,
-        "silverstripe/recipe-form-building": 20,
-        "silverstripe/recipe-authoring-tools": 20,
-        "silverstripe/recipe-collaboration": 20,
-        "silverstripe/recipe-reporting-tools": 20,
-        "cwp/cwp-recipe-search": 20,
-        "silverstripe/recipe-services": 20,
-        "silverstripe/subsites": 20,
-        "tractorcow/silverstripe-fluent": 20,
-        "silverstripe/registry": 20,
-        "cwp/starter-theme": 20,
+        "cwp/installer": 20,
         "cwp/agency-extensions": 20,
         "cwp/watea-theme": 20,
         "silverstripe/controllerpolicy": 20,
