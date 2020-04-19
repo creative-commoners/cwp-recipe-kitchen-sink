@@ -1,5 +1,7 @@
 <?php
 
+namespace My\App;
+
 use SilverStripe\BehatExtension\Context\LoginContext;
 
 class MyLoginContext extends LoginContext

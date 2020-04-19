@@ -3,4 +3,4 @@ Name: myextensions
 ---
 SilverStripe\Core\Injector\Injector:
   SilverStripe\BehatExtension\Context\LoginContext:
-    class: MyLoginContext
+    class: My\App\MyLoginContext
