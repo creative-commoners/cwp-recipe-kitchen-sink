@@ -2,5 +2,5 @@
 Name: myextensions
 ---
 SilverStripe\Core\Injector\Injector:
-  SilverStripe\BehatExtension\Context\LoginContext:
+  SilverStripe\CMS\Tests\Behaviour\LoginContext:
     class: My\App\MyLoginContext

@@ -2,7 +2,7 @@
 
 namespace My\App;
 
-use SilverStripe\BehatExtension\Context\LoginContext;
+use SilverStripe\CMS\Tests\Behaviour\LoginContext;
 
 class MyLoginContext extends LoginContext
 {
