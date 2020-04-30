@@ -7,7 +7,7 @@
     "require": {
         "php": ">=7.1",
         "silverstripe/recipe-plugin": "^1",
-        "cwp/installer": "2.x-dev",
+        "cwp/cwp-installer": "2.x-dev",
         "cwp/agency-extensions": "2.x-dev",
         "cwp/watea-theme": "3.x-dev",
         "silverstripe/controllerpolicy": "2.x-dev",
@@ -25,16 +25,10 @@
         "silverstripe/security-extensions": "4.x-dev",
         "silverstripe/login-forms": "4.x-dev",
         "symbiote/silverstripe-multivaluefield": "5.x-dev",
-        "silverstripe/admin": "dev-pulls/1/in-modal-editing as 1.x-dev",
         "silverstripe/asset-admin": "dev-pulls/1/in-modal-editing as 1.x-dev",
-        "jonom/focuspoint": "dev-pulls/master/ss16-support as dev-master",
-        "silverstripe/framework": "dev-pulls/4/in-modal-editing-changelog as 4.x-dev"
+        "jonom/focuspoint": "dev-pulls/master/ss16-support as dev-master"
     },
     "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:open-sausages/silverstripe-admin.git"
-        },
         {
             "type": "vcs",
             "url": "git@github.com:open-sausages/silverstripe-asset-admin.git"
@@ -42,48 +36,6 @@
         {
             "type": "vcs",
             "url": "git@github.com:open-sausages/silverstripe-focuspoint.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:open-sausages/silverstripe-framework.git"
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "cwp/installer",
-                "version": "2.x-dev",
-                "require": {
-                    "cwp/cwp-recipe-cms": "2.x-dev",
-                    "silverstripe/recipe-blog": "1.x-dev",
-                    "silverstripe/recipe-form-building": "1.x-dev",
-                    "silverstripe/recipe-authoring-tools": "1.x-dev",
-                    "silverstripe/recipe-collaboration": "1.x-dev",
-                    "silverstripe/recipe-reporting-tools": "1.x-dev",
-                    "cwp/cwp-recipe-search": "2.x-dev",
-                    "silverstripe/recipe-services": "1.x-dev",
-                    "silverstripe/subsites": "2.x-dev",
-                    "tractorcow/silverstripe-fluent": "4.x-dev",
-                    "silverstripe/registry": "2.x-dev",
-                    "cwp/starter-theme": "3.x-dev"
-                },
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/silverstripe/cwp-installer.git",
-                    "reference": "a47aa4cc01c3e450ae06870caa071a2b161123ba"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/silverstripe/cwp-installer/zipball/a47aa4cc01c3e450ae06870caa071a2b161123ba",
-                    "reference": "a47aa4cc01c3e450ae06870caa071a2b161123ba",
-                    "shasum": ""
-                },
-                "type": "silverstripe-recipe",
-                "extra": {
-                    "project-files": [
-                        "app/*"
-                    ]
-                }
-            }
         }
     ],
     "require-dev": {
