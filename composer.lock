@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c835324e396ab4f9e21c1a890c57579",
+    "content-hash": "624918c87f2caeb0441f563cb98af107",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -8600,12 +8600,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "7233ac2bfdde24d672f5305f2b3f6b5d741ef8eb"
+                "reference": "86849af5b396b63b65d2230aae5e4b6e0c3d9caa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/7233ac2bfdde24d672f5305f2b3f6b5d741ef8eb",
-                "reference": "7233ac2bfdde24d672f5305f2b3f6b5d741ef8eb",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/86849af5b396b63b65d2230aae5e4b6e0c3d9caa",
+                "reference": "86849af5b396b63b65d2230aae5e4b6e0c3d9caa",
                 "shasum": ""
             },
             "require": {
@@ -8651,7 +8651,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2020-05-11T07:51:54+00:00"
+            "time": "2020-05-04T16:58:31+00:00"
         },
         {
             "name": "thecodingmachine/safe",
@@ -11420,6 +11420,7 @@
         "silverstripe/asset-admin": 20,
         "silverstripe/assets": 20,
         "silverstripe/userforms": 20,
+        "symfony/yaml": 20,
         "silverstripe/frameworktest": 20,
         "silverstripe/graphql-devtools": 20
     },
