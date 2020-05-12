@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "50b5da0d69af4484b1886e3f64b2901a",
+    "content-hash": "de9d6cdccffb909d9923398e31b7e22e",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -3674,16 +3674,16 @@
         },
         {
             "name": "silverstripe/admin",
-            "version": "dev-pulls/1/file-manager-icons",
+            "version": "1.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/creative-commoners/silverstripe-admin.git",
-                "reference": "3e27fe1"
+                "url": "https://github.com/silverstripe/silverstripe-admin.git",
+                "reference": "b3de64b0ec4f003532b6bb1cf4ae309603bc70f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-admin/zipball/3e27fe1",
-                "reference": "3e27fe1",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/b3de64b0ec4f003532b6bb1cf4ae309603bc70f2",
+                "reference": "b3de64b0ec4f003532b6bb1cf4ae309603bc70f2",
                 "shasum": ""
             },
             "require": {
@@ -3708,14 +3708,7 @@
                     "SilverStripe\\Admin\\Tests\\": "tests/php/"
                 }
             },
-            "scripts": {
-                "lint": [
-                    "phpcs code/ tests/php/"
-                ],
-                "lint-clean": [
-                    "phpcbf code/ tests/php/"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -3735,10 +3728,7 @@
                 "admin",
                 "silverstripe"
             ],
-            "support": {
-                "source": "https://github.com/creative-commoners/silverstripe-admin/tree/pulls/1/file-manager-icons"
-            },
-            "time": "2020-05-11T23:18:12+00:00"
+            "time": "2020-05-11T21:52:22+00:00"
         },
         {
             "name": "silverstripe/akismet",
@@ -3790,16 +3780,16 @@
         },
         {
             "name": "silverstripe/asset-admin",
-            "version": "dev-pulls/1/file-manager-icons",
+            "version": "1.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/creative-commoners/silverstripe-asset-admin.git",
-                "reference": "830d45571cfadbb9eba0c9bc22b16a45de898d17"
+                "url": "https://github.com/silverstripe/silverstripe-asset-admin.git",
+                "reference": "8cb768c7b330992eda79e711493adf3960d5b49a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-asset-admin/zipball/830d45571cfadbb9eba0c9bc22b16a45de898d17",
-                "reference": "830d45571cfadbb9eba0c9bc22b16a45de898d17",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-asset-admin/zipball/8cb768c7b330992eda79e711493adf3960d5b49a",
+                "reference": "8cb768c7b330992eda79e711493adf3960d5b49a",
                 "shasum": ""
             },
             "require": {
@@ -3827,40 +3817,29 @@
                     "SilverStripe\\AssetAdmin\\Tests\\Behat\\Context\\": "tests/behat/src/"
                 }
             },
-            "scripts": {
-                "lint": [
-                    "phpcs -s code/ tests/"
-                ],
-                "lint-clean": [
-                    "phpcbf code/ tests/"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
             "description": "Asset management for the SilverStripe CMS",
-            "support": {
-                "source": "https://github.com/creative-commoners/silverstripe-asset-admin/tree/pulls/1/file-manager-icons"
-            },
-            "time": "2020-05-12T00:25:51+00:00"
+            "time": "2020-05-04T00:40:44+00:00"
         },
         {
             "name": "silverstripe/assets",
-            "version": "dev-pulls/1/file-manager-icons",
+            "version": "1.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/creative-commoners/silverstripe-assets.git",
-                "reference": "13be2c5314b6a581d2dd4958830a5d949c053a0d"
+                "url": "https://github.com/silverstripe/silverstripe-assets.git",
+                "reference": "7bba9d21b10a759dd428a89c593e4ca1ed0f4496"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-assets/zipball/13be2c5314b6a581d2dd4958830a5d949c053a0d",
-                "reference": "13be2c5314b6a581d2dd4958830a5d949c053a0d",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-assets/zipball/7bba9d21b10a759dd428a89c593e4ca1ed0f4496",
+                "reference": "7bba9d21b10a759dd428a89c593e4ca1ed0f4496",
                 "shasum": ""
             },
             "require": {
                 "intervention/image": "^2.3",
-                "php": ">=7.1",
                 "silverstripe/framework": "^4.5",
                 "silverstripe/vendor-plugin": "^1.0"
             },
@@ -3882,14 +3861,7 @@
                     "SilverStripe\\Assets\\Tests\\": "tests/php/"
                 }
             },
-            "scripts": {
-                "lint": [
-                    "phpcs src/ tests/php/"
-                ],
-                "lint-clean": [
-                    "phpcbf src/ tests/php/"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -3909,10 +3881,7 @@
                 "assets",
                 "silverstripe"
             ],
-            "support": {
-                "source": "https://github.com/creative-commoners/silverstripe-assets/tree/pulls/1/file-manager-icons"
-            },
-            "time": "2020-05-11T02:31:01+00:00"
+            "time": "2020-04-19T00:06:50+00:00"
         },
         {
             "name": "silverstripe/auditor",
@@ -6953,20 +6922,19 @@
         },
         {
             "name": "silverstripe/userforms",
-            "version": "dev-pulls/5/file-manager-icons",
+            "version": "5.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/creative-commoners/silverstripe-userforms.git",
-                "reference": "5d36f68188daaa47e4f075980f6268e898242286"
+                "url": "https://github.com/silverstripe/silverstripe-userforms.git",
+                "reference": "45489fa312849f0ebab9d5b88d37d1e9be86adbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-userforms/zipball/5d36f68188daaa47e4f075980f6268e898242286",
-                "reference": "5d36f68188daaa47e4f075980f6268e898242286",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/45489fa312849f0ebab9d5b88d37d1e9be86adbc",
+                "reference": "45489fa312849f0ebab9d5b88d37d1e9be86adbc",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1",
                 "silverstripe/cms": "^4.0",
                 "silverstripe/segment-field": "^2.0",
                 "silverstripe/versioned": "^1.0",
@@ -6995,6 +6963,7 @@
                     "SilverStripe\\UserForms\\Tests\\": "tests/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -7025,10 +6994,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "support": {
-                "source": "https://github.com/creative-commoners/silverstripe-userforms/tree/pulls/5/file-manager-icons"
-            },
-            "time": "2020-05-08T00:45:14+00:00"
+            "time": "2020-05-04T23:56:29+00:00"
         },
         {
             "name": "silverstripe/vendor-plugin",
@@ -11370,32 +11336,7 @@
             "time": "2020-05-05T15:06:23+00:00"
         }
     ],
-    "aliases": [
-        {
-            "alias": "1.x-dev",
-            "alias_normalized": "1.9999999.9999999.9999999-dev",
-            "version": "dev-pulls/1/file-manager-icons",
-            "package": "silverstripe/admin"
-        },
-        {
-            "alias": "1.x-dev",
-            "alias_normalized": "1.9999999.9999999.9999999-dev",
-            "version": "dev-pulls/1/file-manager-icons",
-            "package": "silverstripe/asset-admin"
-        },
-        {
-            "alias": "1.x-dev",
-            "alias_normalized": "1.9999999.9999999.9999999-dev",
-            "version": "dev-pulls/1/file-manager-icons",
-            "package": "silverstripe/assets"
-        },
-        {
-            "alias": "5.x-dev",
-            "alias_normalized": "5.9999999.9999999.9999999-dev",
-            "version": "dev-pulls/5/file-manager-icons",
-            "package": "silverstripe/userforms"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "cwp/cwp-installer": 20,
@@ -11416,10 +11357,6 @@
         "silverstripe/security-extensions": 20,
         "silverstripe/login-forms": 20,
         "symbiote/silverstripe-multivaluefield": 20,
-        "silverstripe/admin": 20,
-        "silverstripe/asset-admin": 20,
-        "silverstripe/assets": 20,
-        "silverstripe/userforms": 20,
         "silverstripe/frameworktest": 20,
         "silverstripe/graphql-devtools": 20
     },
