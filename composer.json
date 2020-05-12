@@ -26,7 +26,7 @@
         "silverstripe/login-forms": "4.x-dev",
         "symbiote/silverstripe-multivaluefield": "5.x-dev",
         "silverstripe/admin": "dev-pulls/1/file-manager-icons as 1.x-dev",
-        "silverstripe/asset-admin": "dev-pulls/1/file-manager-icons as 1.x-dev",
+        "silverstripe/asset-admin": "dev-pulls/1/file-manager-icons#830d455 as 1.x-dev",
         "silverstripe/assets": "dev-pulls/1/file-manager-icons as 1.x-dev",
         "silverstripe/userforms": "dev-pulls/5/file-manager-icons as 5.x-dev"
     },
