@@ -29,7 +29,8 @@
         "silverstripe/asset-admin": "dev-pulls/1/file-manager-icons as 1.x-dev",
         "silverstripe/assets": "dev-pulls/1/file-manager-icons as 1.x-dev",
         "silverstripe/userforms": "dev-pulls/5/file-manager-icons as 5.x-dev",
-        "symfony/yaml": "3.4.x-dev#86849af5b396b63b65d2230aae5e4b6e0c3d9caa"
+        "monolog/monolog": "1.x-dev#5c670ec3d2cebcc3c20f014f5b8fe2087e434a60"
+
     },
     "repositories": [
         {
