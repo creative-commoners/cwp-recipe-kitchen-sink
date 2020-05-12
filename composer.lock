@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3596e8c2920cffc59290f2a13fa9ed60",
+    "content-hash": "747c5bcce9dc1b739435ac18f04a4318",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -2352,12 +2352,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "5c670ec3d2cebcc3c20f014f5b8fe2087e434a60"
+                "reference": "74f92ea154eed179700960111970234f00b1a56b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/5c670ec3d2cebcc3c20f014f5b8fe2087e434a60",
-                "reference": "5c670ec3d2cebcc3c20f014f5b8fe2087e434a60",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/74f92ea154eed179700960111970234f00b1a56b",
+                "reference": "74f92ea154eed179700960111970234f00b1a56b",
                 "shasum": ""
             },
             "require": {
@@ -2421,7 +2421,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2020-03-13T16:46:09+00:00"
+            "time": "2020-05-11T19:42:25+00:00"
         },
         {
             "name": "mtdowling/cron-expression",
@@ -8600,12 +8600,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "86849af5b396b63b65d2230aae5e4b6e0c3d9caa"
+                "reference": "86849af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/86849af5b396b63b65d2230aae5e4b6e0c3d9caa",
-                "reference": "86849af5b396b63b65d2230aae5e4b6e0c3d9caa",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/86849af",
+                "reference": "86849af",
                 "shasum": ""
             },
             "require": {
@@ -8651,7 +8651,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2020-05-04T16:58:31+00:00"
+            "time": "2020-05-11T07:51:54+00:00"
         },
         {
             "name": "thecodingmachine/safe",
@@ -11420,7 +11420,7 @@
         "silverstripe/asset-admin": 20,
         "silverstripe/assets": 20,
         "silverstripe/userforms": 20,
-        "monolog/monolog": 20,
+        "symfony/yaml": 20,
         "silverstripe/frameworktest": 20,
         "silverstripe/graphql-devtools": 20
     },
