@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff2e05912f7fd2384abece95452c6aca",
+    "content-hash": "50b5da0d69af4484b1886e3f64b2901a",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -3678,12 +3678,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-admin.git",
-                "reference": "6fccfde"
+                "reference": "3e27fe1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-admin/zipball/6fccfde",
-                "reference": "6fccfde",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-admin/zipball/3e27fe1",
+                "reference": "3e27fe1",
                 "shasum": ""
             },
             "require": {
