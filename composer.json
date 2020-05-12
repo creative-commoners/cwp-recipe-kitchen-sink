@@ -28,9 +28,7 @@
         "silverstripe/admin": "dev-pulls/1/file-manager-icons as 1.x-dev",
         "silverstripe/asset-admin": "dev-pulls/1/file-manager-icons as 1.x-dev",
         "silverstripe/assets": "dev-pulls/1/file-manager-icons as 1.x-dev",
-        "silverstripe/userforms": "dev-pulls/5/file-manager-icons as 5.x-dev",
-        "monolog/monolog": "1.x-dev#5c670ec3d2cebcc3c20f014f5b8fe2087e434a60"
-
+        "silverstripe/userforms": "dev-pulls/5/file-manager-icons as 5.x-dev"
     },
     "repositories": [
         {
@@ -96,6 +94,6 @@
             "ext-mcrypt": "1.0.0"
         }
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "minimum-stability": "dev"
 }
