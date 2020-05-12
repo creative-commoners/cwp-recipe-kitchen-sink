@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "747c5bcce9dc1b739435ac18f04a4318",
+    "content-hash": "ff2e05912f7fd2384abece95452c6aca",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -3678,12 +3678,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-admin.git",
-                "reference": "ed6edc751ef058b9647328ea1fc9a5876b1ec64e"
+                "reference": "6fccfde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-admin/zipball/ed6edc751ef058b9647328ea1fc9a5876b1ec64e",
-                "reference": "ed6edc751ef058b9647328ea1fc9a5876b1ec64e",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-admin/zipball/6fccfde",
+                "reference": "6fccfde",
                 "shasum": ""
             },
             "require": {
@@ -8600,12 +8600,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "86849af"
+                "reference": "7233ac2bfdde24d672f5305f2b3f6b5d741ef8eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/86849af",
-                "reference": "86849af",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/7233ac2bfdde24d672f5305f2b3f6b5d741ef8eb",
+                "reference": "7233ac2bfdde24d672f5305f2b3f6b5d741ef8eb",
                 "shasum": ""
             },
             "require": {
@@ -11420,7 +11420,6 @@
         "silverstripe/asset-admin": 20,
         "silverstripe/assets": 20,
         "silverstripe/userforms": 20,
-        "symfony/yaml": 20,
         "silverstripe/frameworktest": 20,
         "silverstripe/graphql-devtools": 20
     },
