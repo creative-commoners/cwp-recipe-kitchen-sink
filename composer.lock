@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b156812e7a8488fae66639ac5c3da31",
+    "content-hash": "de4e76e00fc1a122b3ac8520bd486565",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -4887,16 +4887,16 @@
         },
         {
             "name": "silverstripe/framework",
-            "version": "4.x-dev",
+            "version": "dev-pulls/4/nonce-unit-test-fix",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "e5d040059626de94944b65c97238987a39e4f94c"
+                "url": "https://github.com/creative-commoners/silverstripe-framework.git",
+                "reference": "431b48afd1e1d1d81cfe2a1611a73739330c7cd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/e5d040059626de94944b65c97238987a39e4f94c",
-                "reference": "e5d040059626de94944b65c97238987a39e4f94c",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-framework/zipball/431b48afd1e1d1d81cfe2a1611a73739330c7cd4",
+                "reference": "431b48afd1e1d1d81cfe2a1611a73739330c7cd4",
                 "shasum": ""
             },
             "require": {
@@ -4975,12 +4975,22 @@
                     "src/includes/constants.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 "src/",
                 "src/includes/",
                 "thirdparty/"
             ],
+            "scripts": {
+                "lint": [
+                    "phpcs src/ tests/php/ tests/behat/src/"
+                ],
+                "lint-clean": [
+                    "phpcbf src/ tests/php/ tests/behat/src/"
+                ],
+                "php-peg": [
+                    "php thirdparty/php-peg/cli.php src/View/SSTemplateParser.peg > src/View/SSTemplateParser.php"
+                ]
+            },
             "license": [
                 "BSD-3-Clause"
             ],
@@ -5000,7 +5010,10 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2020-05-12T17:10:16+00:00"
+            "support": {
+                "source": "https://github.com/creative-commoners/silverstripe-framework/tree/pulls/4/nonce-unit-test-fix"
+            },
+            "time": "2020-05-13T01:24:40+00:00"
         },
         {
             "name": "silverstripe/fulltextsearch",
@@ -11405,6 +11418,12 @@
             "alias_normalized": "5.9999999.9999999.9999999-dev",
             "version": "dev-pulls/5/file-manager-icons",
             "package": "silverstripe/userforms"
+        },
+        {
+            "alias": "4.x-dev",
+            "alias_normalized": "4.9999999.9999999.9999999-dev",
+            "version": "dev-pulls/4/nonce-unit-test-fix",
+            "package": "silverstripe/framework"
         }
     ],
     "minimum-stability": "dev",
@@ -11431,6 +11450,7 @@
         "silverstripe/asset-admin": 20,
         "silverstripe/assets": 20,
         "silverstripe/userforms": 20,
+        "silverstripe/framework": 20,
         "silverstripe/frameworktest": 20,
         "silverstripe/graphql-devtools": 20
     },

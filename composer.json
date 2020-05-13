@@ -28,7 +28,8 @@
         "silverstripe/admin": "dev-pulls/1/file-manager-icons as 1.x-dev",
         "silverstripe/asset-admin": "dev-pulls/1/file-manager-icons as 1.x-dev",
         "silverstripe/assets": "dev-pulls/1/file-manager-icons as 1.x-dev",
-        "silverstripe/userforms": "dev-pulls/5/file-manager-icons as 5.x-dev"
+        "silverstripe/userforms": "dev-pulls/5/file-manager-icons as 5.x-dev",
+        "silverstripe/framework": "dev-pulls/4/nonce-unit-test-fix as 4.x-dev"
     },
     "repositories": [
         {
@@ -46,6 +47,10 @@
         {
             "type": "vcs",
             "url": "git@github.com:creative-commoners/silverstripe-userforms.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:creative-commoners/silverstripe-framework.git"
         }
     ],
     "require-dev": {
