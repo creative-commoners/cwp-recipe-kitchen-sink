@@ -4891,12 +4891,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-framework.git",
-                "reference": "431b48afd1e1d1d81cfe2a1611a73739330c7cd4"
+                "reference": "8b212e6a72898ee3455371112acf992bf2046577"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-framework/zipball/431b48afd1e1d1d81cfe2a1611a73739330c7cd4",
-                "reference": "431b48afd1e1d1d81cfe2a1611a73739330c7cd4",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-framework/zipball/8b212e6a72898ee3455371112acf992bf2046577",
+                "reference": "8b212e6a72898ee3455371112acf992bf2046577",
                 "shasum": ""
             },
             "require": {
@@ -5013,7 +5013,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-framework/tree/pulls/4/nonce-unit-test-fix"
             },
-            "time": "2020-05-13T01:24:40+00:00"
+            "time": "2020-05-13T02:38:34+00:00"
         },
         {
             "name": "silverstripe/fulltextsearch",
