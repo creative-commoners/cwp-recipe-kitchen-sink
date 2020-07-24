@@ -26,11 +26,11 @@
         "silverstripe/login-forms": "4.0.x-dev",
         "symbiote/silverstripe-multivaluefield": "5.x-dev",
         "ext-mcrypt": "*",
-        "silverstripe/assets": "dev-pulls/1.5/less-file-exists as 1.5.x-dev",
-        "silverstripe/asset-admin": "dev-pulls/1.5/use-dbfile-exists-cache as 1.5.x-dev"
+        "silverstripe/versioned": "dev-pulls/1.5/do-unpublish-live-owner as 1.5.x-dev",
+        "silverstripe/assets": "dev-pulls/1.5/replace-file-live-delete as 1.5.x-dev"
     },
     "require-dev": {
-        "silverstripe/frameworktest": "dev-master",
+        "silverstripe/frameworktest": "4.x-dev",
         "silverstripe/graphql-devtools": "1.x-dev",
         "silverstripe/recipe-testing": "^1",
         "mikey179/vfsstream": "^1.6"
@@ -38,11 +38,11 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:creative-commoners/silverstripe-assets.git"
+            "url": "git@github.com:creative-commoners/silverstripe-versioned.git"
         },
         {
             "type": "vcs",
-            "url": "git@github.com:creative-commoners/silverstripe-asset-admin.git"
+            "url": "git@github.com:creative-commoners/silverstripe-assets.git"
         }
     ],
     "suggest": {
