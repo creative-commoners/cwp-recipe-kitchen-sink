@@ -6967,12 +6967,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-versioned.git",
-                "reference": "9e6695e25b3a74244bbbb0c17ab9e3920a1f8acd"
+                "reference": "69404b8e5bb56832c80c37759fe5c8eb96dce67b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-versioned/zipball/9e6695e25b3a74244bbbb0c17ab9e3920a1f8acd",
-                "reference": "9e6695e25b3a74244bbbb0c17ab9e3920a1f8acd",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-versioned/zipball/69404b8e5bb56832c80c37759fe5c8eb96dce67b",
+                "reference": "69404b8e5bb56832c80c37759fe5c8eb96dce67b",
                 "shasum": ""
             },
             "require": {
@@ -7022,7 +7022,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-versioned/tree/pulls/1.5/do-unpublish-live-owner"
             },
-            "time": "2020-07-23T21:16:21+00:00"
+            "time": "2020-08-04T00:40:19+00:00"
         },
         {
             "name": "silverstripe/versioned-admin",
