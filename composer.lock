@@ -3817,12 +3817,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-assets.git",
-                "reference": "62f23e2b87c04f66a04fc1b4e1645117b38ed220"
+                "reference": "1be027509e23b49223a188454b258175903907f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-assets/zipball/62f23e2b87c04f66a04fc1b4e1645117b38ed220",
-                "reference": "62f23e2b87c04f66a04fc1b4e1645117b38ed220",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-assets/zipball/1be027509e23b49223a188454b258175903907f6",
+                "reference": "1be027509e23b49223a188454b258175903907f6",
                 "shasum": ""
             },
             "require": {
@@ -3878,7 +3878,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-assets/tree/pulls/1.5/replace-file-live-delete"
             },
-            "time": "2020-08-04T01:12:29+00:00"
+            "time": "2020-08-05T02:38:06+00:00"
         },
         {
             "name": "silverstripe/auditor",
