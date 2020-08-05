@@ -26,7 +26,7 @@
         "silverstripe/login-forms": "4.x-dev",
         "symbiote/silverstripe-multivaluefield": "5.x-dev",
         "ext-mcrypt": "*",
-        "silverstripe/versioned": "dev-pulls/1/show-archived as 1.x-dev"
+        "silverstripe/assets": "dev-bugfix/asset-recursive-fix as 1.x-dev"
     },
     "require-dev": {
         "silverstripe/frameworktest": "4.x-dev",
@@ -37,7 +37,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:creative-commoners/silverstripe-versioned.git"
+            "url": "git@github.com:adrhumphreys/silverstripe-assets.git"
         }
     ],
     "suggest": {

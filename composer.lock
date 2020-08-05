@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5ebbce83d0a520765ed61db0eba526a9",
+    "content-hash": "7aa6fa7c0ef0d32b9f8bd1237b4be4a2",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -3879,16 +3879,16 @@
         },
         {
             "name": "silverstripe/assets",
-            "version": "1.x-dev",
+            "version": "dev-bugfix/asset-recursive-fix",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe/silverstripe-assets.git",
-                "reference": "ec697613d350b18df5fb8fd3389de4ff034bfc01"
+                "url": "https://github.com/adrhumphreys/silverstripe-assets.git",
+                "reference": "ebcc2f5e9ec3929c5b261271d8b87c24e2288fc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-assets/zipball/ec697613d350b18df5fb8fd3389de4ff034bfc01",
-                "reference": "ec697613d350b18df5fb8fd3389de4ff034bfc01",
+                "url": "https://api.github.com/repos/adrhumphreys/silverstripe-assets/zipball/ebcc2f5e9ec3929c5b261271d8b87c24e2288fc6",
+                "reference": "ebcc2f5e9ec3929c5b261271d8b87c24e2288fc6",
                 "shasum": ""
             },
             "require": {
@@ -3914,7 +3914,14 @@
                     "SilverStripe\\Assets\\Tests\\": "tests/php/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "scripts": {
+                "lint": [
+                    "phpcs src/ tests/php/"
+                ],
+                "lint-clean": [
+                    "phpcbf src/ tests/php/"
+                ]
+            },
             "license": [
                 "BSD-3-Clause"
             ],
@@ -3934,7 +3941,10 @@
                 "assets",
                 "silverstripe"
             ],
-            "time": "2020-07-30T04:33:47+00:00"
+            "support": {
+                "source": "https://github.com/adrhumphreys/silverstripe-assets/tree/bugfix/asset-recursive-fix"
+            },
+            "time": "2020-07-31T02:10:02+00:00"
         },
         {
             "name": "silverstripe/auditor",
@@ -4938,12 +4948,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "65c329591735d39014e6dc37f63638253633c164"
+                "reference": "a166ba0ebd27dd73ed60952f45fef17b82590b46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/65c329591735d39014e6dc37f63638253633c164",
-                "reference": "65c329591735d39014e6dc37f63638253633c164",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/a166ba0ebd27dd73ed60952f45fef17b82590b46",
+                "reference": "a166ba0ebd27dd73ed60952f45fef17b82590b46",
                 "shasum": ""
             },
             "require": {
@@ -5047,7 +5057,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2020-08-04T22:52:49+00:00"
+            "time": "2020-08-05T22:26:57+00:00"
         },
         {
             "name": "silverstripe/fulltextsearch",
@@ -7088,16 +7098,16 @@
         },
         {
             "name": "silverstripe/versioned",
-            "version": "dev-pulls/1/show-archived",
+            "version": "1.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/creative-commoners/silverstripe-versioned.git",
-                "reference": "fb242553a1d36cfca808dff0da00825e75e6b660"
+                "url": "https://github.com/silverstripe/silverstripe-versioned.git",
+                "reference": "5aabb33e8c95f63a43d4178585060a66f88e976b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-versioned/zipball/fb242553a1d36cfca808dff0da00825e75e6b660",
-                "reference": "fb242553a1d36cfca808dff0da00825e75e6b660",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-versioned/zipball/5aabb33e8c95f63a43d4178585060a66f88e976b",
+                "reference": "5aabb33e8c95f63a43d4178585060a66f88e976b",
                 "shasum": ""
             },
             "require": {
@@ -7122,14 +7132,7 @@
                     "SilverStripe\\Versioned\\Tests\\": "tests/php/"
                 }
             },
-            "scripts": {
-                "lint": [
-                    "vendor/bin/phpcs src/ tests/php/"
-                ],
-                "lint-clean": [
-                    "vendor/bin/phpcbf src/ tests/php/"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -7149,10 +7152,7 @@
                 "silverstripe",
                 "versioned"
             ],
-            "support": {
-                "source": "https://github.com/creative-commoners/silverstripe-versioned/tree/pulls/1/show-archived"
-            },
-            "time": "2020-08-05T01:18:16+00:00"
+            "time": "2020-07-30T22:41:21+00:00"
         },
         {
             "name": "silverstripe/versioned-admin",
@@ -11347,8 +11347,8 @@
         {
             "alias": "1.x-dev",
             "alias_normalized": "1.9999999.9999999.9999999-dev",
-            "version": "dev-pulls/1/show-archived",
-            "package": "silverstripe/versioned"
+            "version": "dev-bugfix/asset-recursive-fix",
+            "package": "silverstripe/assets"
         }
     ],
     "minimum-stability": "dev",
@@ -11371,7 +11371,7 @@
         "silverstripe/security-extensions": 20,
         "silverstripe/login-forms": 20,
         "symbiote/silverstripe-multivaluefield": 20,
-        "silverstripe/versioned": 20,
+        "silverstripe/assets": 20,
         "silverstripe/frameworktest": 20,
         "silverstripe/graphql-devtools": 20
     },
