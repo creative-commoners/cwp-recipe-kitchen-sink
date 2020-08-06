@@ -542,12 +542,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "5fceb4799a034bf97b0134aebaaa95de091a7d97"
+                "reference": "b112f90b73ac31fdb88ae16b9a6172ad74a00a5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/5fceb4799a034bf97b0134aebaaa95de091a7d97",
-                "reference": "5fceb4799a034bf97b0134aebaaa95de091a7d97",
+                "url": "https://api.github.com/repos/composer/composer/zipball/b112f90b73ac31fdb88ae16b9a6172ad74a00a5d",
+                "reference": "b112f90b73ac31fdb88ae16b9a6172ad74a00a5d",
                 "shasum": ""
             },
             "require": {
@@ -614,7 +614,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2020-07-22T07:23:53+00:00"
+            "time": "2020-08-03T09:34:31+00:00"
         },
         {
             "name": "composer/installers",
@@ -2181,16 +2181,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.69",
+            "version": "1.0.70",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "7106f78428a344bc4f643c233a94e48795f10967"
+                "reference": "585824702f534f8d3cf7fab7225e8466cc4b7493"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/7106f78428a344bc4f643c233a94e48795f10967",
-                "reference": "7106f78428a344bc4f643c233a94e48795f10967",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/585824702f534f8d3cf7fab7225e8466cc4b7493",
+                "reference": "585824702f534f8d3cf7fab7225e8466cc4b7493",
                 "shasum": ""
             },
             "require": {
@@ -2201,7 +2201,7 @@
                 "league/flysystem-sftp": "<1.0.6"
             },
             "require-dev": {
-                "phpspec/phpspec": "^3.4",
+                "phpspec/phpspec": "^3.4 || ^4.0 || ^5.0 || ^6.0",
                 "phpunit/phpunit": "^5.7.26"
             },
             "suggest": {
@@ -2261,7 +2261,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2020-05-18T15:13:39+00:00"
+            "time": "2020-07-26T07:20:36+00:00"
         },
         {
             "name": "m1/env",
@@ -2496,12 +2496,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "acaf3fecad7f2ee0d82bb51ea680e396aae07b97"
+                "reference": "303342630d78dcfaa3d715077c73761e1a98192a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/acaf3fecad7f2ee0d82bb51ea680e396aae07b97",
-                "reference": "acaf3fecad7f2ee0d82bb51ea680e396aae07b97",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/303342630d78dcfaa3d715077c73761e1a98192a",
+                "reference": "303342630d78dcfaa3d715077c73761e1a98192a",
                 "shasum": ""
             },
             "require": {
@@ -2540,7 +2540,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2020-07-23T10:28:13+00:00"
+            "time": "2020-08-01T20:36:49+00:00"
         },
         {
             "name": "onelogin/php-saml",
@@ -3817,12 +3817,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-assets.git",
-                "reference": "1be027509e23b49223a188454b258175903907f6"
+                "reference": "08ff06c0d8ec850195de2bbc673da8e5f50116d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-assets/zipball/1be027509e23b49223a188454b258175903907f6",
-                "reference": "1be027509e23b49223a188454b258175903907f6",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-assets/zipball/08ff06c0d8ec850195de2bbc673da8e5f50116d4",
+                "reference": "08ff06c0d8ec850195de2bbc673da8e5f50116d4",
                 "shasum": ""
             },
             "require": {
@@ -3878,7 +3878,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-assets/tree/pulls/1.5/replace-file-live-delete"
             },
-            "time": "2020-08-05T02:38:06+00:00"
+            "time": "2020-08-06T01:57:33+00:00"
         },
         {
             "name": "silverstripe/auditor",
@@ -6967,12 +6967,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-versioned.git",
-                "reference": "5faf4ecca4efb1100eb8308f634c98dfe05a8568"
+                "reference": "d2e6baa273dd0ecbc0edce5b2fa00612bbceeace"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-versioned/zipball/5faf4ecca4efb1100eb8308f634c98dfe05a8568",
-                "reference": "5faf4ecca4efb1100eb8308f634c98dfe05a8568",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-versioned/zipball/d2e6baa273dd0ecbc0edce5b2fa00612bbceeace",
+                "reference": "d2e6baa273dd0ecbc0edce5b2fa00612bbceeace",
                 "shasum": ""
             },
             "require": {
@@ -7022,7 +7022,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-versioned/tree/pulls/1.5/do-unpublish-refetch"
             },
-            "time": "2020-08-04T02:55:19+00:00"
+            "time": "2020-08-06T01:16:29+00:00"
         },
         {
             "name": "silverstripe/versioned-admin",
@@ -7245,16 +7245,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Spomky-Labs/base64url.git",
-                "reference": "a5eaf0352b89abdd93f7fb4668dd4dbfe8831f6d"
+                "reference": "69e77e7d7c5407a253dacdd7bfe6b8978b7a4fb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Spomky-Labs/base64url/zipball/a5eaf0352b89abdd93f7fb4668dd4dbfe8831f6d",
-                "reference": "a5eaf0352b89abdd93f7fb4668dd4dbfe8831f6d",
+                "url": "https://api.github.com/repos/Spomky-Labs/base64url/zipball/69e77e7d7c5407a253dacdd7bfe6b8978b7a4fb2",
+                "reference": "69e77e7d7c5407a253dacdd7bfe6b8978b7a4fb2",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1|^8.0"
+                "php": ">=7.1"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.0",
@@ -7263,14 +7263,9 @@
                 "phpstan/phpstan-deprecation-rules": "^0.11",
                 "phpstan/phpstan-phpunit": "^0.11",
                 "phpstan/phpstan-strict-rules": "^0.11",
-                "phpunit/phpunit": "^7.0|^8.0"
+                "phpunit/phpunit": "^7.0|^8.0|^9.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Base64Url\\": "src/"
@@ -7294,7 +7289,7 @@
                 "safe",
                 "url"
             ],
-            "time": "2019-04-18T11:52:47+00:00"
+            "time": "2020-08-01T14:15:43+00:00"
         },
         {
             "name": "spomky-labs/cbor-php",
@@ -7728,12 +7723,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "0dc6b972cfd110df3bc317b9d6033243b41b4f4f"
+                "reference": "4f1f1e25c1711d2ce9b0952068ccdefbbae92917"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/0dc6b972cfd110df3bc317b9d6033243b41b4f4f",
-                "reference": "0dc6b972cfd110df3bc317b9d6033243b41b4f4f",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/4f1f1e25c1711d2ce9b0952068ccdefbbae92917",
+                "reference": "4f1f1e25c1711d2ce9b0952068ccdefbbae92917",
                 "shasum": ""
             },
             "require": {
@@ -7790,7 +7785,7 @@
                 "caching",
                 "psr6"
             ],
-            "time": "2020-07-23T12:42:41+00:00"
+            "time": "2020-07-26T05:13:16+00:00"
         },
         {
             "name": "symfony/config",
@@ -10867,12 +10862,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-testsession.git",
-                "reference": "0c479ad2eb6ff3729719bbc7c8e578064d916703"
+                "reference": "e44774dbf0bf97d6b79a1d0428cb9b4a29ae73e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-testsession/zipball/0c479ad2eb6ff3729719bbc7c8e578064d916703",
-                "reference": "0c479ad2eb6ff3729719bbc7c8e578064d916703",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-testsession/zipball/e44774dbf0bf97d6b79a1d0428cb9b4a29ae73e2",
+                "reference": "e44774dbf0bf97d6b79a1d0428cb9b4a29ae73e2",
                 "shasum": ""
             },
             "require": {
@@ -10911,7 +10906,7 @@
                 "silverstripe",
                 "testing"
             ],
-            "time": "2019-05-10T02:15:03+00:00"
+            "time": "2020-07-27T05:30:49+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
