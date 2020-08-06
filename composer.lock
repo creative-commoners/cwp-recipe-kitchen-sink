@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0aa223a58fac2a3fe349c2f15759eaa7",
+    "content-hash": "af011ee788c00fc5aec48c2ac5562fa9",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -4181,12 +4181,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-cms.git",
-                "reference": "65b8cc3948e7cec59b26a339edfb41ee421f1017"
+                "reference": "956478db830fdf8e34129054b2af57c38bc5c96b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/65b8cc3948e7cec59b26a339edfb41ee421f1017",
-                "reference": "65b8cc3948e7cec59b26a339edfb41ee421f1017",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/956478db830fdf8e34129054b2af57c38bc5c96b",
+                "reference": "956478db830fdf8e34129054b2af57c38bc5c96b",
                 "shasum": ""
             },
             "require": {
@@ -4235,7 +4235,7 @@
                 "cms",
                 "silverstripe"
             ],
-            "time": "2020-07-30T16:12:38+00:00"
+            "time": "2020-08-06T15:58:49+00:00"
         },
         {
             "name": "silverstripe/comment-notifications",
@@ -4938,12 +4938,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "a166ba0ebd27dd73ed60952f45fef17b82590b46"
+                "reference": "8195bb480dd15ffed135bcb866ed0e63d624c01b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/a166ba0ebd27dd73ed60952f45fef17b82590b46",
-                "reference": "a166ba0ebd27dd73ed60952f45fef17b82590b46",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/8195bb480dd15ffed135bcb866ed0e63d624c01b",
+                "reference": "8195bb480dd15ffed135bcb866ed0e63d624c01b",
                 "shasum": ""
             },
             "require": {
@@ -5047,7 +5047,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2020-08-05T22:26:57+00:00"
+            "time": "2020-08-06T22:16:30+00:00"
         },
         {
             "name": "silverstripe/fulltextsearch",
@@ -7156,16 +7156,16 @@
         },
         {
             "name": "silverstripe/versioned-admin",
-            "version": "1.x-dev",
+            "version": "dev-pulls/1/show-archived",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe/silverstripe-versioned-admin.git",
-                "reference": "4428c58461817edaade97a85544478fd762b91fd"
+                "url": "https://github.com/creative-commoners/silverstripe-versioned-admin.git",
+                "reference": "3a6696354ada5be753cc3a5ac1202fd1207b47e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-versioned-admin/zipball/4428c58461817edaade97a85544478fd762b91fd",
-                "reference": "4428c58461817edaade97a85544478fd762b91fd",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-versioned-admin/zipball/3a6696354ada5be753cc3a5ac1202fd1207b47e9",
+                "reference": "3a6696354ada5be753cc3a5ac1202fd1207b47e9",
                 "shasum": ""
             },
             "require": {
@@ -7193,7 +7193,14 @@
                     "SilverStripe\\VersionedAdmin\\Tests\\": "tests/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "scripts": {
+                "lint": [
+                    "phpcs src/ tests/"
+                ],
+                "lint-clean": [
+                    "phpcbf src/ tests/"
+                ]
+            },
             "license": [
                 "BSD-3-Clause"
             ],
@@ -7214,7 +7221,11 @@
                 "silverstripe",
                 "versioned"
             ],
-            "time": "2020-06-30T23:13:40+00:00"
+            "support": {
+                "source": "https://github.com/creative-commoners/silverstripe-versioned-admin/tree/pulls/1/show-archived",
+                "issues": "https://github.com/creative-commoners/silverstripe-versioned-admin/issues"
+            },
+            "time": "2020-08-05T01:14:31+00:00"
         },
         {
             "name": "silverstripe/versionfeed",
@@ -9971,12 +9982,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-webdriver/php-webdriver.git",
-                "reference": "e4347e2164d56c9ad20911f37d41919a0eaadf8a"
+                "reference": "6916b0bf61ab19b9d06f50f3c79b209e17f4c9e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-webdriver/php-webdriver/zipball/e4347e2164d56c9ad20911f37d41919a0eaadf8a",
-                "reference": "e4347e2164d56c9ad20911f37d41919a0eaadf8a",
+                "url": "https://api.github.com/repos/php-webdriver/php-webdriver/zipball/6916b0bf61ab19b9d06f50f3c79b209e17f4c9e1",
+                "reference": "6916b0bf61ab19b9d06f50f3c79b209e17f4c9e1",
                 "shasum": ""
             },
             "require": {
@@ -10031,7 +10042,7 @@
                 "selenium",
                 "webdriver"
             ],
-            "time": "2020-06-23T10:01:35+00:00"
+            "time": "2020-08-06T14:07:01+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -10235,16 +10246,16 @@
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "2.0.x-dev",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "13eb9aba9626b1a3811c6a492acc9669d24bb85a"
+                "reference": "791198a2c6254db10131eecfe8c06670700904db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/13eb9aba9626b1a3811c6a492acc9669d24bb85a",
-                "reference": "13eb9aba9626b1a3811c6a492acc9669d24bb85a",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/791198a2c6254db10131eecfe8c06670700904db",
+                "reference": "791198a2c6254db10131eecfe8c06670700904db",
                 "shasum": ""
             },
             "require": {
@@ -10280,7 +10291,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2017-11-27T08:47:38+00:00"
+            "time": "2017-11-27T05:48:46+00:00"
         },
         {
             "name": "phpunit/phpunit",
@@ -11349,6 +11360,12 @@
             "alias_normalized": "1.9999999.9999999.9999999-dev",
             "version": "dev-pulls/1/show-archived",
             "package": "silverstripe/versioned"
+        },
+        {
+            "alias": "1.x-dev",
+            "alias_normalized": "1.9999999.9999999.9999999-dev",
+            "version": "dev-pulls/1/show-archived",
+            "package": "silverstripe/versioned-admin"
         }
     ],
     "minimum-stability": "dev",
@@ -11372,6 +11389,7 @@
         "silverstripe/login-forms": 20,
         "symbiote/silverstripe-multivaluefield": 20,
         "silverstripe/versioned": 20,
+        "silverstripe/versioned-admin": 20,
         "silverstripe/frameworktest": 20,
         "silverstripe/graphql-devtools": 20
     },
