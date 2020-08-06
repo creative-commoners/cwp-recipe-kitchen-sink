@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5ebbce83d0a520765ed61db0eba526a9",
+    "content-hash": "0aa223a58fac2a3fe349c2f15759eaa7",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -4938,12 +4938,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "65c329591735d39014e6dc37f63638253633c164"
+                "reference": "a166ba0ebd27dd73ed60952f45fef17b82590b46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/65c329591735d39014e6dc37f63638253633c164",
-                "reference": "65c329591735d39014e6dc37f63638253633c164",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/a166ba0ebd27dd73ed60952f45fef17b82590b46",
+                "reference": "a166ba0ebd27dd73ed60952f45fef17b82590b46",
                 "shasum": ""
             },
             "require": {
@@ -5047,7 +5047,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2020-08-04T22:52:49+00:00"
+            "time": "2020-08-05T22:26:57+00:00"
         },
         {
             "name": "silverstripe/fulltextsearch",
