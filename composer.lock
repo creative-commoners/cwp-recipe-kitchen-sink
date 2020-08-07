@@ -4191,12 +4191,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-cms.git",
-                "reference": "65b8cc3948e7cec59b26a339edfb41ee421f1017"
+                "reference": "956478db830fdf8e34129054b2af57c38bc5c96b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/65b8cc3948e7cec59b26a339edfb41ee421f1017",
-                "reference": "65b8cc3948e7cec59b26a339edfb41ee421f1017",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/956478db830fdf8e34129054b2af57c38bc5c96b",
+                "reference": "956478db830fdf8e34129054b2af57c38bc5c96b",
                 "shasum": ""
             },
             "require": {
@@ -4245,7 +4245,7 @@
                 "cms",
                 "silverstripe"
             ],
-            "time": "2020-07-30T16:12:38+00:00"
+            "time": "2020-08-06T15:58:49+00:00"
         },
         {
             "name": "silverstripe/comment-notifications",
@@ -4948,12 +4948,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "a166ba0ebd27dd73ed60952f45fef17b82590b46"
+                "reference": "8195bb480dd15ffed135bcb866ed0e63d624c01b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/a166ba0ebd27dd73ed60952f45fef17b82590b46",
-                "reference": "a166ba0ebd27dd73ed60952f45fef17b82590b46",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/8195bb480dd15ffed135bcb866ed0e63d624c01b",
+                "reference": "8195bb480dd15ffed135bcb866ed0e63d624c01b",
                 "shasum": ""
             },
             "require": {
@@ -5057,7 +5057,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2020-08-05T22:26:57+00:00"
+            "time": "2020-08-06T22:16:30+00:00"
         },
         {
             "name": "silverstripe/fulltextsearch",
@@ -9971,12 +9971,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-webdriver/php-webdriver.git",
-                "reference": "e4347e2164d56c9ad20911f37d41919a0eaadf8a"
+                "reference": "6916b0bf61ab19b9d06f50f3c79b209e17f4c9e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-webdriver/php-webdriver/zipball/e4347e2164d56c9ad20911f37d41919a0eaadf8a",
-                "reference": "e4347e2164d56c9ad20911f37d41919a0eaadf8a",
+                "url": "https://api.github.com/repos/php-webdriver/php-webdriver/zipball/6916b0bf61ab19b9d06f50f3c79b209e17f4c9e1",
+                "reference": "6916b0bf61ab19b9d06f50f3c79b209e17f4c9e1",
                 "shasum": ""
             },
             "require": {
@@ -10031,7 +10031,7 @@
                 "selenium",
                 "webdriver"
             ],
-            "time": "2020-06-23T10:01:35+00:00"
+            "time": "2020-08-06T14:07:01+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -10235,16 +10235,16 @@
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "2.0.x-dev",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "13eb9aba9626b1a3811c6a492acc9669d24bb85a"
+                "reference": "791198a2c6254db10131eecfe8c06670700904db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/13eb9aba9626b1a3811c6a492acc9669d24bb85a",
-                "reference": "13eb9aba9626b1a3811c6a492acc9669d24bb85a",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/791198a2c6254db10131eecfe8c06670700904db",
+                "reference": "791198a2c6254db10131eecfe8c06670700904db",
                 "shasum": ""
             },
             "require": {
@@ -10280,7 +10280,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2017-11-27T08:47:38+00:00"
+            "time": "2017-11-27T05:48:46+00:00"
         },
         {
             "name": "phpunit/phpunit",
