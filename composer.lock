@@ -1321,12 +1321,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/cwp-starter-theme.git",
-                "reference": "0268008a00c5672742631f9eabf699dea500a30c"
+                "reference": "cb71442857f8c21f71ed8d41d287fbb0427465bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/cwp-starter-theme/zipball/0268008a00c5672742631f9eabf699dea500a30c",
-                "reference": "0268008a00c5672742631f9eabf699dea500a30c",
+                "url": "https://api.github.com/repos/silverstripe/cwp-starter-theme/zipball/cb71442857f8c21f71ed8d41d287fbb0427465bd",
+                "reference": "cb71442857f8c21f71ed8d41d287fbb0427465bd",
                 "shasum": ""
             },
             "require": {
@@ -1357,7 +1357,7 @@
                 "silverstripe",
                 "theme"
             ],
-            "time": "2020-07-30T16:12:51+00:00"
+            "time": "2020-08-07T02:41:14+00:00"
         },
         {
             "name": "cwp/watea-theme",
