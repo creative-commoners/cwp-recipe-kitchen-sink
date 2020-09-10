@@ -25,10 +25,7 @@
         "silverstripe/security-extensions": "4.x-dev",
         "silverstripe/login-forms": "4.x-dev",
         "symbiote/silverstripe-multivaluefield": "5.x-dev",
-        "ext-mcrypt": "*",
-        "silverstripe/versioned": "dev-pulls/1/show-archived as 1.x-dev",
-        "silverstripe/versioned-admin": "dev-pulls/1/show-archived as 1.x-dev",
-        "silverstripe/cms": "dev-pulls/4/show-archived as 4.x-dev"
+        "ext-mcrypt": "*"
     },
     "require-dev": {
         "silverstripe/frameworktest": "4.x-dev",
@@ -39,15 +36,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:creative-commoners/silverstripe-versioned.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:creative-commoners/silverstripe-versioned-admin.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:creative-commoners/silverstripe-cms.git"
+            "url": "git@github.com:bilekt3/silverstripe-framework.git"
         }
     ],
     "suggest": {
